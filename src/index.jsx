@@ -1,6 +1,6 @@
-import { CustomAlert} from './components/CustomAlert';
+import CustomAlert from './components/CustomAlert';
 import { CustomBtn } from './components/CustomDiv';
-const cpLib = {
+const CpLib = {
   CustomAlert,CustomBtn
 }
-export default cpLib
+export default CpLib

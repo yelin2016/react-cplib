@@ -1,6 +1,6 @@
 import React from 'react';
 import { Alert } from 'antd';
-export class CustomAlert extends React.Component{
+export default class CustomAlert extends React.Component{
   render(){
     const { message= "",className=""} = this.props;
      return (
